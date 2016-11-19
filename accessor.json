@@ -1,0 +1,32 @@
+[
+  {
+    "FuncName": "String",
+    "Type": "string",
+    "Empty": "\"\""
+  },
+  {
+    "FuncName": "Uint",
+    "Type": "uint",
+    "Empty": "0"
+  },
+  {
+    "FuncName": "Int",
+    "Type": "int",
+    "Empty": "0"
+  },
+  {
+    "FuncName": "Byte",
+    "Type": "byte",
+    "Empty": 0
+  },
+  {
+    "FuncName": "Bool",
+    "Type": "bool",
+    "Empty": "false"
+  },
+  {
+    "FuncName": "Tx",
+    "Type": "*sql.Tx",
+    "Empty": "nil"
+  }
+]

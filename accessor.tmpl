@@ -1,0 +1,15 @@
+package ctxx{{range .}}
+
+func {{.FuncName}}(ctx context.Context, key interface{}) {{.Type}} {
+	v := ctx.Value(key)
+	if v == nil {
+		return {{.Empty}}
+	}
+
+	switch v := v.(type) {
+	case {{.Type}}:
+		return v
+	default:
+		return {{.Empty}}
+	}
+}{{end}}
